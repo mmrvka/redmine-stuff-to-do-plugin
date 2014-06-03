@@ -16,3 +16,5 @@ de:
   stuff_to_do_label_filter_by: Filtern nach...
   stuff_to_do_drag_issue_create_list: Ticket hierher ziehen, um eine neue Liste zu erstellen.
   stuff_to_do_drag_issue_remove_list: Ticket hierher ziehen, um das Element von einer Liste zu löschen.
+  label_f_hour: "%{value}h"
+  label_f_hour_plural: "%{value}h"

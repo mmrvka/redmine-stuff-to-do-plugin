@@ -82,7 +82,7 @@ module StuffToDoHelper
   # Redmine 0.8.x compatibility
   def l_hours(hours)
     hours = hours.to_f
-    l((hours < 2.0 ? :label_f_hour : :label_f_hour_plural), ("%.2f" % hours.to_f))
+    l((hours < 2.0 ? :label_f_hour : :label_f_hour_plural), ("%.1f" % hours.to_f))
   end unless Object.method_defined?('l_hours')
 
 end

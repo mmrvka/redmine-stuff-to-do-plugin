@@ -22,4 +22,5 @@ en:
   stuff_to_do_time_grid_save_notice: "{{count}} time entries saved."
   stuff_to_do_use_time_grid: "Use Time Grid"
   stuff_to_do_below_threshold: "%{user} has only %{count} recommended items left in their Stuff To Do which is below the threshold of %{threshold}."
-
+  label_f_hour: "%{value}h"
+  label_f_hour_plural: "%{value}h"
