@@ -7,14 +7,16 @@
 
         <div class="due_date">
           <% if issue.due_date %>
-          <%= format_date(issue.due_date) %> &nbsp;
+          <%= format_date(issue.due_date) %>
           <% end %>
+          &nbsp;
         </div>
 
         <div class="estimate">
           <% if issue.estimated_hours && issue.estimated_hours > 0 %>
-          <%= h(l_hours(issue.estimated_hours)) %> &nbsp;
+          <%= h(l_hours(issue.estimated_hours)) %>
           <% end %>
+          &nbsp;
         </div>
 
         <div class="progress"><%= progress_bar(issue.done_ratio, :width => '100%') %></div>
